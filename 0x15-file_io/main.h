@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /*
- * File: main.h
- * Auth: Bellarmine Bulinda
+ * File: ALX, Low Level Programming - 0x15-file-io
+ * AUth: Bellarmine Bulinda
  * Desc: Header file containing prototypes for all functions
  *       written in the 0x14-file_io directory.
  */
