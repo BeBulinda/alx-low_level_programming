@@ -6,12 +6,12 @@
  * @n: The number.
  * @m: The number to flip n to.
  *
- * Return: The necessary number of bits to flip to get from n to m.
+ * Return: The necessary number of bits to flip to get from x to y.
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int x, unsigned long int y)
 {
-	unsigned long int xor = n ^ m, bits = 0;
+	unsigned long int xor = x ^ y, bits = 0;
 
 	while (xor > 0)
 	{

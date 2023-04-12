@@ -9,12 +9,12 @@
  *         Otherwise - 1.
  */
 
-int clear_bit(unsigned long int* n, unsigned int index)
+int clear_bit(unsigned long int* x, unsigned int my_index)
 {
-	if (index >= (sizeof(unsigned long int) * 8))
+	if (my_index >= (sizeof(unsigned long int) * 8))
 		return (-1);
 
-	*n &= ~(1 << index);
+	*x &= ~(1 << my_index);
 
 	return (1);
 }
